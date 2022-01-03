@@ -1,0 +1,52 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  max-width: 1600px;
+
+  background-image: linear-gradient(var(--hero-gradient), var(--hero-gradient)),
+    url(../images/heroback.jpg);
+
+  background-color: var(--hero-footer-bg-color);
+
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero__button {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  background-color: var(--primary-blue-accent-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-accent-color);
+  }
+}

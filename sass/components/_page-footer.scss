@@ -1,0 +1,14 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--hero-footer-bg-color);
+}
+
+.page-footer__container {
+  display: flex;
+}
+
+.page-footer__logo {
+  margin-bottom: 20px;
+}
